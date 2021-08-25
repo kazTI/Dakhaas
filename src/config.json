@@ -1,0 +1,51 @@
+{
+  "logging": {
+    "fileName": "dakhaas.log",
+    "level": "DEBUG",
+    "format": "[%(asctime)s]:%(levelname)s:%(name)s:%(message)s"
+  },
+  "gpioPins": {
+    "disposal": {
+      "hBridgePins": [12,20,16]
+    },
+    "movement": {
+      "hBridgePins": [17,18,27,22]
+    },
+    "sensors": {
+      "fsrPin": 4,
+      "hx711Pins":[5,6],
+      "piezo1":21,
+      "piezo2":25
+    },
+    "shovel": {
+      "hBridgePins": [19,26,13]
+    }
+  },
+  "camera": {
+    "framesPerSecond": 0.2,
+    "timeLimitInSeconds": 10800
+  },
+  "movement": {
+    "movementUsed": "Tracks",
+    "maxAvgDistBetweenSides": 2,
+    "maxStandStillTimes": 2
+  },
+  "sensors": {
+    "hz711" : {
+      "referenceUnit" : 1,
+      "threshold": 2
+    },
+    "piezo1": {
+      "threshold": 1
+    },
+    "piezo2": {
+      "threshold": 1
+    }
+  },
+  "shovel": {
+    "var1": 1
+  },
+  "disposal": {
+    "sleeptime": 1.5
+  }
+}

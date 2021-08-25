@@ -1,0 +1,11 @@
+0,0,0,0,5,4,Moving Forward
+0,0,0,0,7,4,Moving Forward left
+0,0,0,0,4,7,Moving Forward right
+1,0,0,0,5,4,Moving Backward
+1,0,0,0,7,4,Moving Backward left
+1,0,0,0,4,7,Moving Backward right
+1,0,1,0,4,5,Stopped
+0,0,0,1,5,4,Stopped
+0,0,0,1,5,4,Moving Backward
+0,0,0,0,7,4,Moving Backward left
+0,0,1,0,5,4,Stopped
